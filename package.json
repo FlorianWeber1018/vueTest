@@ -3,16 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "konva": "^2.5.1",
     "vue": "^2.5.17",
+    "vue-konva": "^1.0.7",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuetify": "^1.2.0",
+    "vuex": "^3.0.1",
+    "vuex-rest-api": "^2.10.0"
   },
   "devDependencies": {
     "@vue/cli-service": "^3.0.4",
+    "vue-cli-plugin-vuetify": "^0.2.1",
     "vue-template-compiler": "^2.5.17"
   },
   "postcss": {

@@ -1,4 +1,7 @@
 import Vue from 'vue'
+import VueKonva from 'vue-konva'
+Vue.use(VueKonva)
+import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import store from './store'
