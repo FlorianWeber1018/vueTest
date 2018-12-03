@@ -1,7 +1,6 @@
 <template>
   <div class="prog">
-      <SoftModule v-for="module in Modules" v-bind:moduleID=parseInt(module.ID) v-bind:key= module.ID></softModule>
-      
+      <SoftModule v-for="module in Modules" v-bind:moduleID = parseInt(module.ID) v-bind:key= module.ID></softModule>
   </div>
 </template>
 
@@ -15,7 +14,7 @@ export default {
   },
   data() {
     return {
-      message : 1
+      
     }
   },
   created: function(){
